@@ -986,3 +986,15 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 1.5em; /* Smaller font size for mobile */
+        top: 5px; /* Adjust position */
+    }
+
+    .flower {
+        transform: scale(0.8); /* Scale down flowers */
+    }
+
+    /* Add more styles for other elements as needed */
+}
