@@ -998,3 +998,13 @@ body {
 
     /* Add more styles for other elements as needed */
 }
+.header-text {
+  position: absolute; /* or relative based on your layout */
+  top: 10px; /* adjust as needed */
+  left: 50%; /* center horizontally */
+  transform: translateX(-50%); /* adjust for centering */
+  z-index: 10; /* ensure it is above other elements */
+  color: white; /* or any color that contrasts with the background */
+  font-size: 2em; /* adjust size as needed */
+  text-align: center; /* center the text */
+}
